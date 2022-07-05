@@ -1,0 +1,28 @@
+.connection {
+    display: flex;
+    align-items: center;
+    padding:10px 20px;
+    border-bottom: 1px solid #ae2c2c;
+
+}
+
+/* .name {                        
+    position:relative;
+    width: fit-content;
+}
+
+.designation{
+    position: relative;
+}
+
+.address{
+    position: inherit;
+} */
+.connectButton{
+padding: 10px 15px;
+margin-left: 25vw;
+display: flex;
+border-radius: 30%;
+cursor: pointer;
+background-color: rgb(171, 228, 228);
+}

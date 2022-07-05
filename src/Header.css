@@ -1,0 +1,15 @@
+ .Header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40vmax;
+    height: 1vmax;
+    margin: 1vmax 4vmax;
+    /* padding: 1vmax 8vmax; */
+
+ }
+ /* .header{
+    width: 3vmax;
+    height: 2vmax;
+    margin: 1vmax 4vmax;
+  } */
