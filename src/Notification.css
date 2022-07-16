@@ -1,0 +1,84 @@
+.notify{
+    display: flex;
+    background-color: rgb(244, 195, 212);
+    margin:20px;
+    height: fit-content;
+    width: 45vw;
+    box-shadow: -1px 4px 20px -6px rgb(240, 215, 86);
+    border-radius: 10px;
+}
+.newgroup> input{
+    border-radius: 8px;
+    border: 2px solid black;
+    margin: 0vw 5vw;
+    padding: 1vmax 12vmax;
+    align-items: center;
+    justify-content: center;
+}
+.newConn> input{
+    border-radius: 8px;
+    border: 2px solid black;
+    margin: 0vw 5vw;
+    padding: 1vmax 12vmax;
+    align-items: center;
+    justify-content: center;
+}
+.newgroup> h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.newConn>h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.groupbox{
+    background-color: white;
+    height: fit-content;
+    margin: 2vw 5vw;
+    padding: 1vmax 1vmax;
+    overflow-y: scroll;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.accept{
+display: grid;
+align-items: center;
+justify-content: space-between;
+margin: 2px 5px;
+padding: 5px 2px;
+border-radius: 20px;
+color: white;
+justify-content: center;
+border: none;
+background-color: rgb(247, 108, 48);
+}
+.deny{
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px 5px;
+    padding: 5px 2px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    justify-content: center;
+    background-color: rgb(63, 133, 63);
+}
+
+.newUser{
+    height: 60vh;
+    width:36vw;
+    border: 2px solid black;
+    margin: 1vw 4vw;
+    overflow-y: scroll;
+    background-color: white;
+}
+.newUser >url{
+height: 20px;
+width: 20px;
+}

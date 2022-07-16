@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from "./Header";
 import Search from './Search';
+import Notification from './Notification';
 import  {Route, Routes, BrowserRouter } from 'react-router-dom'
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Routes>
 
       <Route path='/search' element={<Search />} /> 
+      <Route path='/notification' element={<Notification />} /> 
       
 
     </Routes>
